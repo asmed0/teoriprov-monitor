@@ -1,6 +1,8 @@
 # Trafikverket Teoriprov monitor
 
 A very barebone monitor for the [Förarprov Trafikverket](https://fp.trafikverket.se/) website, we are not liable for any misusage. 
+
+See [Körprov monitor](https://github.com/foundbypass/korprov-monitor) if you wish to monitor a körprov instead.
 ## Installation
 
 Download and install [NodeJS](https://nodejs.org/en/download/) to be able to run the commands below.
