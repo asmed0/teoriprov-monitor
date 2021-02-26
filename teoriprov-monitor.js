@@ -10,6 +10,7 @@ var startMonitor = async function () {
   var initialAvailableTime;
   var ssn = config.personnummer;
   var delay = config.delay;
+  var webhook = config.webhook;
   var locationID = await getLocationID(
     config.personnummer,
     config.stad,
@@ -89,7 +90,7 @@ var startMonitor = async function () {
 
           var config = {
             method: "post",
-            url: config.webhook,
+            url: webhook,
             headers: {
               "Content-Type": "application/json",
             },
